@@ -45,6 +45,7 @@ enum EventType: String, CaseIterable {
     case theater = "Театр"
     case concert = "Концерт"
     case fair = "Ярмарка"
+    case ball = "Бал"
     case other = "Другое"
     
     var id: String { self.rawValue }
